@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Category Names -->
+    <string name="markets">Markets</string>
+    <string name="general_markets">Markets</string>
+    <string name="food_markets">Food Markets</string>
+    <string name="attractions">Attractions</string>
+    <string name="free_attractions">Free Attractions</string>
+    <string name="paid_attractions">Paid Attractions</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="vegan_restaurants">Vegan Restaurants</string>
+    <string name="vegan_friendly_restaurants">Vegan Friendly Restaurants</string>
+
+    <!--MarketsFragment addresses-->
+    <string name="camden_market_address"></string>
+    <string name="portobello_market_address"></string>
+    <string name="covent_market_address"></string>
+    <string name="greenwich_market_address"></string>
+    <string name="old_spitafields_market_address"></string>
+    <string name="brick_lane_market_address"></string>
+    <string name="alfies_antique_market_address"></string>
+    <string name="broadway_market_address"></string>
+    <string name="southbank_market_address"></string>
+    <string name="maltby_market_address"></string>
+    <string name="columbia_market_address"></string>
+
+    <!--FoodMarketsFragment addresses-->
+    <string name="name_market_address"></string>
+
+    <!-- MarketsFragment Description Strings -->
+    <string name="camden_market_description">Camden Lock is at the heart of Camden Town\'s thriving markets area.
+        Open seven days per week, Camden Lock Market comprises stalls and shops selling everything from vintage
+        clothing to hand-made jewellery and artwork to gifts, music and more. There are also food stalls offering
+        a large variety of cuisines. \n\nA former timber yard for ship builders TE Dingwalls, Camden Lock was
+        opened in the 1970s as Camden\'s original arts and crafts market. The original market hall was re-opened
+        in the 1980s and a steel and glass canopy added to the East Yard in 2003.</string>
+
+    <string name="portobello_market_description">Portobello Road has been a market since the 1800s but became
+        particularly famous for its antiques in the 1950s. Now there are numerous stalls offering everything
+        from fruit and bread to posters, clothes, ceramics and music.\n\nEasily accessible from Notting Hill
+        Gate, Ladbroke Grove and Westbourne Park tube station and by bus routes servicing Ladbroke Grove and
+        Notting Hill Gate. Main market days are Friday and Saturday with a smaller market running Monday to
+        Thursday. An exciting day out for all the family.</string>
+
+    <string name="covent_market_description">Once home to the world-famous fruit and vegetable market, Covent
+        Garden’s Apple Market continues to support market traders, offering a range of unique handmade crafts
+        and goods throughout the week.\n\nFrom Tuesday to Sunday, the Apple Market is filled with handmade
+        jewellery, prints, watercolours and beautiful crafts and every Monday, you’ll find one-off antiques
+        and collectables.\n\nOpen every day of the week, the East Colonnade Market has a variety of stalls
+        selling products such as handmade soap, jewellery, handbags, hand-knitted children's clothing, a
+        magician's stall, sweets, artwork and homeware.\n\nIn the South Piazza, the Jubilee Market changes
+        its wares daily. On Mondays, the market is dedicated to antiques. From Tuesday to Friday, a general
+        market operates with traders selling clothes and household goods. At weekends, the market offers arts
+        and crafts.</string>
+
+    <string name="greenwich_market_description">Greenwich Market is packed full of unique and distinctive
+        arts and crafts. Well known for its designer makers and small cottage industries, customers have
+        access to items that cannot be found anywhere else in the world. Enjoy the vibrant atmosphere,
+        take in some classical music performed by students from nearby Trinity College of Music, and enjoy
+        the continental food court whilst browsing through the wonderful array of over 120 arts, craft
+        and antique stalls.\n\n Tues: antiques, vintage, collectables and food. Wed: crafts and food-to-go.
+        Thurs: crafts, antiques and vintage. Fri-Sun: arts, crafts, fresh produce and food-to-go. Every day:
+        specialist shops and pubs.</string>
+
+    <string name="old_spitafields_market_description">Old Spitalfields Market is one of the finest
+        surviving Victorian Market Halls in London (built 1876)./n/nStalls sell antiques, food and
+        fashion, varying from distinct and quirky creations from up-and-coming designers to bohemian,
+        vintage and African designs. Boutiques offer everything from hand-crafted wooden toys to today\'s
+        must-have design items.\n\nThe mix of well-known chain restaurants and fresh food market stalls
+        provide a gastronomic paradise for discerning food lovers and families alike. High quality
+        and affordable cuisine on offer includes deli-style dishes, fresh produce, artisan breads
+        and plenty of organic and fair trade products.</string>
+
+    <string name="brick_lane_market_description">Brick Lane Market is a large East End flea market
+        with street stalls selling antiques, clothes and bric-a-brac at bargain prices.\n\nSince 2000
+        Brick Lane has seen several markets open under the The Truman Markets umbrella: the Boiler
+        House Food Hall, the Tea Rooms, the Backyard Market, the Sunday UpMarket, and the Vintage Market.
+        These markets sell everything from vintage and handmade clothing, accessories, jewellery, music,
+        arts and crafts, and tasty street food. The food trucks are in the yard seven days a week.\n\n\
+        The markets are open at the Old Truman Brewery on Brick Lane on Saturday between 11am-6pm and
+        Sunday from 10am-5pm, except the Sunday UpMarket which is just on Sunday and the Vintage Market
+        which is also open on Thursday and Friday.</string>
+
+    <string name="alfies_antique_market_description">Alfies Antique Market is a bustling and lively
+        centre for decorative and unusual antiques. This chic and cheerful market has a little more
+        life than your traditional antique thoroughfares, boasting some 75 specialist dealers, spread
+        over five floors. On the top floor you'll find the Roof Top Kitchen where you can enjoy
+        panoramic views over London’s rooftops.</string>
+
+    <string name="broadway_market_description">One of the oldest chartered markets in London is
+        having a revival. Broadway Market is a buzzing centre of the community. The market includes a
+        farmer\'s market stocking an eclectic mix of goods from local farmers, artists and craftspeople.
+        \n\nWith shops and galleries selling local art, a ceramics shop selling original pieces and
+        artisans selling a mixture of exciting and unusual clothes and gifts, the street offers unusual
+        and stunning merchandise at affordable prices.</string>
+
+    <string name="southbank_market_description">Search for fresh food and drink from small producers
+        and independent traders at the Southbank Centre Market every weekend.\n\nHeld every Friday
+        to Sunday on Southbank Centre Square, behind the Royal Festival Hall, this market features
+        more than 40 producers, including specialists in meats, spices, confectionary and more.
+        You can take the delicious produce home, or sample yummy dishes cooked on site.</string>
+
+    <string name="maltby_market_description">A small but bustling market offering fresh produce,
+        including breads, cakes, meats and cheeses. Popular sellers include Monty\'s Deli sandwiches
+        and St John Bakery's sourdough and fresh filled doughnuts. The Kernel Brewery is also open
+        during market time.</string>
+
+    <string name="columbia_market_description">Sited in London\'s East End, near Brick Lane and
+        Spitalfields, this street market has a friendly atmosphere and is open every Sunday from
+        8am to 3pm.\n\nColumbia Road is lined with 60 independent shops, including small art
+        galleries, cupcake shops, vintage clothes stores, garden and antique shops, and English
+        and Italian delis. There are also numerous pubs, cafes and restaurants in which to
+        refuel.</string>
+
+    <!-- MarketsFragment Days Open Strings -->
+    <string name="camden_market_openning_times">OPENING TIMES: \n\nCamden Lock market is open seven
+        days a week, every day except Christmas Day.</string>
+
+    <string name="portobello_market_openning_times">OPENING TIMES: \n\nMonday - Wednesday: 09:00
+        - 18:00 and Thursday: 09:00 - 13:00 and Friday and Saturday: 09:00 - 19:00</string>
+
+    <string name="covent_market_openning_times">OPENING TIMES: \n\nEveryday 10am until 6pm</string>
+
+    <string name="greenwich_market_openning_times">OPENING TIMES: \n\nTuesday to Sunday and Bank
+        Holidays 10:00 to 17:30.</string>
+
+    <string name="old_spitafields_market_openning_times">OPENING TIMES: \n\nRestaurants open daily
+        - hours vary. Shops open daily - hours varying but generally 11.00 - 19.00.</string>
+
+    <string name="brick_lane_market_openning_times">OPENING TIMES: \n\nOpen Sunday only 10:00 -
+        17:00</string>
+
+    <string name="alfies_antique_market_openning_times">OPENING TIMES: \n\nTuesday - Saturday:
+        10:00-18:00</string>
+
+    <string name="broadway_market_openning_times">OPENING TIMES: \n\nSaturday 09:00 - 17:00</string>
+
+    <string name="southbank_market_openning_times">OPENING TIMES: \n\nFriday: 12:00 -20:00,
+        Saturday: 11:00 -20:00, Sunday: 12:00 - 18:00, Monday (bank holidays only) 12:00 - 18:00</string>
+
+    <string name="maltby_market_openning_times">OPENING TIMES: \n\nThe market is open Saturdays
+        between 9am-4pm and Sundays between 11am-4pm</string>
+
+    <string name="columbia_market_openning_times">OPENING TIMES: \n\nSunday 08:00 – 15:00 (closing
+        time approximate)</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+</resources>
