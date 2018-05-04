@@ -66,16 +66,9 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
         // Find the ImageView on the list_item.xml layout with the image ID.
         ImageView imageView = listItemView.findViewById(R.id.image);
 
-        // Check if an image it provided for this word or not
-        if (currentPlace.hasImage()){
-            // If an image is available, display the provided image based on the resource ID.
-            imageView.setImageResource(currentPlace.getmImageResourceId());
-            // Make sure the view is visible
-            imageView.setVisibility(View.VISIBLE);
-        } else {
-            // Otherwise hide the ImageView (Set visibility to GONE).
-            imageView.setVisibility(View.GONE);
-        }
+       // If an image is available, display the provided image based on the resource ID.
+       imageView.setImageResource(currentPlace.getmImageResourceId());
+
         // Return the whole list item layout (containing one ImageView and one TextView) so that
         // it can be shown in the ListView.
         return listItemView;

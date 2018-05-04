@@ -15,28 +15,25 @@ public class Places implements Parcelable {
 
     private int mInfoBlurb;
 
-    private int mImageResourceId = NO_IMAGE_PROVIDED;
+    private int mImageResourceId;
 
-    private static final int NO_IMAGE_PROVIDED = -1;
+    private int mPhysicalAddress;
 
-    public Places(String nameOfPlace, int daysOpen, int infoBlurb){
-        mNameOfPlace = nameOfPlace;
-        mDaysOpen = daysOpen;
-        mInfoBlurb = infoBlurb;
-    }
-
-    public Places(String nameOfPlace, int daysOpen, int infoBlurb, int imageResourceId){
+    public Places(String nameOfPlace, int daysOpen, int infoBlurb, int imageResourceId, int physicalAddress){
         mNameOfPlace = nameOfPlace;
         mDaysOpen = daysOpen;
         mInfoBlurb = infoBlurb;
         mImageResourceId = imageResourceId;
+        mPhysicalAddress = physicalAddress;
     }
 
+    // Parcel allows you to move data around the app into different fragments and activities.
     protected Places(Parcel in) {
         this.mNameOfPlace = in.readString();
         this.mDaysOpen = in.readInt();
         this.mInfoBlurb = in.readInt();
         this.mImageResourceId = in.readInt();
+        this.mPhysicalAddress = in.readInt();
     }
 
     // Parceable code found in several tutorials:
@@ -73,8 +70,9 @@ public class Places implements Parcelable {
     public int getmImageResourceId(){
         return mImageResourceId;
     }
-    public boolean hasImage(){
-        return mImageResourceId != NO_IMAGE_PROVIDED;
+
+    public int getmPhysicalAddress() {
+        return mPhysicalAddress;
     }
 
     @Override
@@ -88,6 +86,7 @@ public class Places implements Parcelable {
         dest.writeInt(this.mDaysOpen);
         dest.writeInt(this.mInfoBlurb);
         dest.writeInt(this.mImageResourceId);
+        dest.writeInt(this.mPhysicalAddress);
     }
 
 }

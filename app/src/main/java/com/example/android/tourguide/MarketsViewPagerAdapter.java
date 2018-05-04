@@ -42,27 +42,34 @@ public class MarketsViewPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new MarketsFragment();
-        } else {
+        } else if (position == 1){
             return new FoodMarketsFragment();
+        } else if (position == 2) {
+            return  new PaidAttractionsFragment();
+        }else {
+            return new FreeAttractionsFragment();
         }
     }
 
-    /**
-     * Returns the total number of pages.
-     */
+    // Returns the total number of pages.
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
+
+     // Adds the title to the TabLayout based on item position.
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        // Add title based on item position
         if (position == 0) {
             return mContext.getString(R.string.general_markets);
-        } else {
+        } else if (position == 1) {
             return mContext.getString(R.string.food_markets);
+        } else if (position == 2) {
+            return mContext.getString(R.string.paid_attractions);
+        } else {
+            return mContext.getString(R.string.free_attractions);
         }
     }
 }

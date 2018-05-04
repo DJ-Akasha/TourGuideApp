@@ -13,139 +13,465 @@
     <string name="vegan_friendly_restaurants">Vegan Friendly Restaurants</string>
 
     <!--MarketsFragment addresses-->
-    <string name="camden_market_address"></string>
-    <string name="portobello_market_address"></string>
-    <string name="covent_market_address"></string>
-    <string name="greenwich_market_address"></string>
-    <string name="old_spitafields_market_address"></string>
-    <string name="brick_lane_market_address"></string>
-    <string name="alfies_antique_market_address"></string>
-    <string name="broadway_market_address"></string>
-    <string name="southbank_market_address"></string>
-    <string name="maltby_market_address"></string>
-    <string name="columbia_market_address"></string>
-
-    <!--FoodMarketsFragment addresses-->
-    <string name="name_market_address"></string>
+    <string name="camden_market_address"><b>Address:</b>\n\n54 - 56 Chalk Farm Road, Camden Lock
+        Place, London, NW1 8AF</string>
+    <string name="portobello_market_address"><b>Address:</b>\n\nPortobello Road, 72 Tavistock Road,
+        London, W11 1AN</string>
+    <string name="covent_market_address"><b>Address:</b>\n\nThe Apple Market, Covent Garden, London,
+        WC2E 8RF</string>
+    <string name="greenwich_market_address"><b>Address:</b>\n\nGreenwich High Road, London, SE10
+        9HZ</string>
+    <string name="old_spitafields_market_address"><b>Address:</b>\n\nBrushfield Street, London, E1
+        6EW</string>
+    <string name="brick_lane_market_address"><b>Address:</b>\n\nBrick Lane, London, E1 5HA</string>
+    <string name="alfies_antique_market_address"><b>Address:</b>\n\n13-25 Church Street, London, NW8
+        8DT</string>
+    <string name="columbia_market_address"><b>Address:</b>\n\nColumbia Road, London, E2 7RG</string>
 
     <!-- MarketsFragment Description Strings -->
-    <string name="camden_market_description">Camden Lock is at the heart of Camden Town\'s thriving markets area.
-        Open seven days per week, Camden Lock Market comprises stalls and shops selling everything from vintage
-        clothing to hand-made jewellery and artwork to gifts, music and more. There are also food stalls offering
-        a large variety of cuisines. \n\nA former timber yard for ship builders TE Dingwalls, Camden Lock was
-        opened in the 1970s as Camden\'s original arts and crafts market. The original market hall was re-opened
-        in the 1980s and a steel and glass canopy added to the East Yard in 2003.</string>
+    <string name="camden_market_description">Lorem ipsum dolor sit amet, id dicit aliquid percipit
+        qui. Unum adhuc ancillae te mel. Ut usu dicit albucius disputando, eu vim wisi velit,
+        molestie accusamus liberavisse at mei. Eum cetero inermis perpetua et, suas doming deleniti
+        eam ut. Aliquip fabulas at vix. Mei no oratio maiestatis, cibo error nam ne. Ea has sanctus
+        referrentur. \n\nEu essent forensibus vel. Et petentium mnesarchum mel, ne consul splendide
+        deterruisset eum, qui nostro noluisse scaevola id. Per utinam semper ut, quo equidem facilis
+        cu. Ex eam insolens facilisis. Id semper mnesarchum scripserit per, ex possim facilisi
+        eleifend est, cetero animal vix id.</string>
 
-    <string name="portobello_market_description">Portobello Road has been a market since the 1800s but became
-        particularly famous for its antiques in the 1950s. Now there are numerous stalls offering everything
-        from fruit and bread to posters, clothes, ceramics and music.\n\nEasily accessible from Notting Hill
-        Gate, Ladbroke Grove and Westbourne Park tube station and by bus routes servicing Ladbroke Grove and
-        Notting Hill Gate. Main market days are Friday and Saturday with a smaller market running Monday to
-        Thursday. An exciting day out for all the family.</string>
+    <string name="portobello_market_description">Mel accumsan eleifend ea. Verear repudiandae no
+        pri, ea nam utinam scribentur, ius lorem nemore ut. Et qui falli electram. Est ei corrumpit
+        voluptaria, cum ea fugit euismod definiebas, scaevola assueverit sed an.\n\nEligendi
+        recteque salutatus per an, mollis abhorreant comprehensam ad mei. Cu timeam virtute nusquam
+        sed, augue postulant expetendis an per, ius solum mediocritatem ne. Tale eirmod cu vix. Sed
+        soluta omnium efficiantur ne, at mei dicunt eirmod delenit. Ponderum abhorreant
+        necessitatibus eam cu.</string>
 
-    <string name="covent_market_description">Once home to the world-famous fruit and vegetable market, Covent
-        Garden’s Apple Market continues to support market traders, offering a range of unique handmade crafts
-        and goods throughout the week.\n\nFrom Tuesday to Sunday, the Apple Market is filled with handmade
-        jewellery, prints, watercolours and beautiful crafts and every Monday, you’ll find one-off antiques
-        and collectables.\n\nOpen every day of the week, the East Colonnade Market has a variety of stalls
-        selling products such as handmade soap, jewellery, handbags, hand-knitted children's clothing, a
-        magician's stall, sweets, artwork and homeware.\n\nIn the South Piazza, the Jubilee Market changes
-        its wares daily. On Mondays, the market is dedicated to antiques. From Tuesday to Friday, a general
-        market operates with traders selling clothes and household goods. At weekends, the market offers arts
-        and crafts.</string>
+    <string name="covent_market_description">Ne pri audire bonorum, cum quod sonet mentitum eu, eos
+        nibh verear eu. Modus gubergren vituperatoribus no qui, pro homero complectitur in, clita
+        graeci sed id. Qui animal graecis et, ei nam habeo oporteat salutatus. Vim cu erat regione
+        fabellas.\n\nLorem ipsum dolor sit amet, veri quando regione pro et. Nec et soleat vivendo.
+        Cum ei virtute dolorem deterruisset. No albucius tractatos suavitate nam, eos laudem
+        constituto eu, an consul ridens est. An his noster convenire periculis.</string>
 
-    <string name="greenwich_market_description">Greenwich Market is packed full of unique and distinctive
-        arts and crafts. Well known for its designer makers and small cottage industries, customers have
-        access to items that cannot be found anywhere else in the world. Enjoy the vibrant atmosphere,
-        take in some classical music performed by students from nearby Trinity College of Music, and enjoy
-        the continental food court whilst browsing through the wonderful array of over 120 arts, craft
-        and antique stalls.\n\n Tues: antiques, vintage, collectables and food. Wed: crafts and food-to-go.
-        Thurs: crafts, antiques and vintage. Fri-Sun: arts, crafts, fresh produce and food-to-go. Every day:
-        specialist shops and pubs.</string>
+    <string name="greenwich_market_description">Pro petentium voluptatibus eu. In dolore debitis
+        usu. An quo solum harum fabellas, vel at percipit oporteat. Tractatos disputando ne his,
+        vel facilisi incorrupte ei, his ei noster erroribus moderatius.\n\nChoro efficiantur mel
+        an, veniam mollis adolescens sea et. Id vim ornatus assueverit, ea impetus suavitate
+        scriptorem eam. Ad eum posse iudicabit expetendis, ex vim liber saperet patrioque. Has at
+        possim conclusionemque. In fabulas accusam mel, ipsum putent disputationi pro ne. Id quot
+        graeco mandamus duo, duo corpora omnesque et, quot putent legimus te pro.\n\nCu ullum
+        principes eos, posse mucius aeterno vix et. Ea electram forensibus mnesarchum eos, adhuc
+        verear debitis mei ad, ne nec affert mollis. Case nonumy vivendo ut ius. Ei mei labore
+        minimum aliquando.</string>
 
-    <string name="old_spitafields_market_description">Old Spitalfields Market is one of the finest
-        surviving Victorian Market Halls in London (built 1876)./n/nStalls sell antiques, food and
-        fashion, varying from distinct and quirky creations from up-and-coming designers to bohemian,
-        vintage and African designs. Boutiques offer everything from hand-crafted wooden toys to today\'s
-        must-have design items.\n\nThe mix of well-known chain restaurants and fresh food market stalls
-        provide a gastronomic paradise for discerning food lovers and families alike. High quality
-        and affordable cuisine on offer includes deli-style dishes, fresh produce, artisan breads
-        and plenty of organic and fair trade products.</string>
+    <string name="old_spitafields_market_description">In duo sale persius, vis ut everti debitis
+        consequat. Usu saperet fuisset ut, eam ad soluta tamquam philosophia. Modo postea nam ei.
+        Consul quodsi ad sed, sit mucius iriure at.\n\nVis debet equidem tacimates in. Debet
+        euismod eum cu, duo in iudicabit constituto. Vim ne aeterno diceret quaestio, no ullum
+        inimicus ius, vim facer viris et. Sit mollis veritus mentitum ei, ea detraxit intellegam
+        reformidans sea.\n\nEu vix augue vitae, equidem adversarium concludaturque cum no, mea
+        eirmod nostrum maluisset ut. Alii suas laoreet at est, cum quando torquatos ea. Elitr
+        audire forensibus cu duo, dolorum consulatu accommodare per no, an cum error dolor quando.
+        Eam no cibo sanctus dolorem, movet aliquam expetenda quo ex, et eam augue possim. Et est
+        errem possim, nec graece dicunt percipit no.</string>
 
-    <string name="brick_lane_market_description">Brick Lane Market is a large East End flea market
-        with street stalls selling antiques, clothes and bric-a-brac at bargain prices.\n\nSince 2000
-        Brick Lane has seen several markets open under the The Truman Markets umbrella: the Boiler
-        House Food Hall, the Tea Rooms, the Backyard Market, the Sunday UpMarket, and the Vintage Market.
-        These markets sell everything from vintage and handmade clothing, accessories, jewellery, music,
-        arts and crafts, and tasty street food. The food trucks are in the yard seven days a week.\n\n\
-        The markets are open at the Old Truman Brewery on Brick Lane on Saturday between 11am-6pm and
-        Sunday from 10am-5pm, except the Sunday UpMarket which is just on Sunday and the Vintage Market
-        which is also open on Thursday and Friday.</string>
+    <string name="brick_lane_market_description">At vis harum platonem gloriatur. An cum lorem
+        prodesset ullamcorper, solet vivendo at est, in cetero elaboraret appellantur vim. Pro
+        impetus sensibus id, ne ornatus debitis appellantur mel. Homero officiis maiestatis eos
+        ea, sale prima delectus vel an. Ius graeco feugait mentitum et, qui cu salutatus tincidunt
+        expetendis, te per torquatos definitionem. Ei ius summo habemus, ea clita essent mei, mel
+        putent adipisci inciderint ea. Mel at eirmod hendrerit, cum eu verterem reprimique
+        honestatis.</string>
 
-    <string name="alfies_antique_market_description">Alfies Antique Market is a bustling and lively
-        centre for decorative and unusual antiques. This chic and cheerful market has a little more
-        life than your traditional antique thoroughfares, boasting some 75 specialist dealers, spread
-        over five floors. On the top floor you'll find the Roof Top Kitchen where you can enjoy
-        panoramic views over London’s rooftops.</string>
+    <string name="alfies_antique_market_description">Mea ei quot dicunt, simul debitis id eam,
+        vix etiam equidem no. Ne hinc diceret habemus has. At mundi recusabo torquatos vix, ut
+        eam quem velit, ea has epicurei scaevola. Altera qualisque ius at, vitae semper epicuri
+        vim et. \n\nNulla vocent verterem eam id. Mea no assum signiferumque. Ut erat suscipiantur
+        has, id tation officiis accommodare usu. Mel eu lorem similique. Eum expetenda intellegam
+        in, summo euismod mea ut.</string>
 
-    <string name="broadway_market_description">One of the oldest chartered markets in London is
-        having a revival. Broadway Market is a buzzing centre of the community. The market includes a
-        farmer\'s market stocking an eclectic mix of goods from local farmers, artists and craftspeople.
-        \n\nWith shops and galleries selling local art, a ceramics shop selling original pieces and
-        artisans selling a mixture of exciting and unusual clothes and gifts, the street offers unusual
-        and stunning merchandise at affordable prices.</string>
-
-    <string name="southbank_market_description">Search for fresh food and drink from small producers
-        and independent traders at the Southbank Centre Market every weekend.\n\nHeld every Friday
-        to Sunday on Southbank Centre Square, behind the Royal Festival Hall, this market features
-        more than 40 producers, including specialists in meats, spices, confectionary and more.
-        You can take the delicious produce home, or sample yummy dishes cooked on site.</string>
-
-    <string name="maltby_market_description">A small but bustling market offering fresh produce,
-        including breads, cakes, meats and cheeses. Popular sellers include Monty\'s Deli sandwiches
-        and St John Bakery's sourdough and fresh filled doughnuts. The Kernel Brewery is also open
-        during market time.</string>
-
-    <string name="columbia_market_description">Sited in London\'s East End, near Brick Lane and
-        Spitalfields, this street market has a friendly atmosphere and is open every Sunday from
-        8am to 3pm.\n\nColumbia Road is lined with 60 independent shops, including small art
-        galleries, cupcake shops, vintage clothes stores, garden and antique shops, and English
-        and Italian delis. There are also numerous pubs, cafes and restaurants in which to
-        refuel.</string>
+    <string name="columbia_market_description">Vel omnes graeco pericula ut. Nominavi delectus
+        repudiare vim in, pro ad omittam detraxit interpretaris. Odio meliore nam ea. Tractatos
+        maiestatis usu ei, dicant consectetuer has at. Ne numquam volumus scripserit eos, omnium
+        volumus pericula cu mei. Cu pro natum decore.</string>
 
     <!-- MarketsFragment Days Open Strings -->
-    <string name="camden_market_openning_times">OPENING TIMES: \n\nCamden Lock market is open seven
-        days a week, every day except Christmas Day.</string>
+    <string name="camden_market_opening_times"><b>OPENING TIMES:</b> \n\nCamden Lock market is
+        open seven days a week, every day except Christmas Day.</string>
 
-    <string name="portobello_market_openning_times">OPENING TIMES: \n\nMonday - Wednesday: 09:00
-        - 18:00 and Thursday: 09:00 - 13:00 and Friday and Saturday: 09:00 - 19:00</string>
+    <string name="portobello_market_opening_times"><b>OPENING TIMES:</b> \n\nMonday - Wednesday:
+        09:00 - 18:00 and Thursday: 09:00 - 13:00 and Friday and Saturday: 09:00 - 19:00</string>
 
-    <string name="covent_market_openning_times">OPENING TIMES: \n\nEveryday 10am until 6pm</string>
+    <string name="covent_market_opening_times"><b>OPENING TIMES:</b> \n\nEveryday 10am until
+        6pm</string>
 
-    <string name="greenwich_market_openning_times">OPENING TIMES: \n\nTuesday to Sunday and Bank
-        Holidays 10:00 to 17:30.</string>
+    <string name="greenwich_market_opening_times"><b>OPENING TIMES:</b> \n\nTuesday to Sunday and
+        Bank Holidays 10:00 to 17:30.</string>
 
-    <string name="old_spitafields_market_openning_times">OPENING TIMES: \n\nRestaurants open daily
-        - hours vary. Shops open daily - hours varying but generally 11.00 - 19.00.</string>
+    <string name="old_spitafields_market_opening_times"><b>OPENING TIMES:</b> \n\nRestaurants open
+        daily - hours vary. Shops open daily - hours varying but generally 11.00 - 19.00.</string>
 
-    <string name="brick_lane_market_openning_times">OPENING TIMES: \n\nOpen Sunday only 10:00 -
+    <string name="brick_lane_market_opening_times"><b>OPENING TIMES:</b> \n\nOpen Sunday only
+        10:00 - 17:00</string>
+
+    <string name="alfies_antique_market_opening_times"><b>OPENING TIMES:</b> \n\nTuesday -
+        Saturday: 10:00-18:00</string>
+
+    <string name="columbia_market_opening_times"><b>OPENING TIMES:</b> \n\nSunday 08:00 – 15:00
+        (closing time approximate)</string>
+
+
+    <!--FoodMarketsFragment addresses-->
+    <string name="southbank_food_market_address"><b>Address:</b>\n\nRoyal Festival Hall, Belvedere
+        Road, Southbank Centre Square, Southwark, London, SE1 8XX</string>
+    <string name="borough_food_market_address"><b>Address:</b>\n\nBorough Market, 8 Southwark St,
+        London, SE1 1TL</string>
+    <string name="camden_food_market_address"><b>Address:</b>\n\n54 - 56 Chalk Farm Road, Camden
+        Lock Place, London, NW1 8AF</string>
+    <string name="leather_lane_food_market_address"><b>Address:</b>\n\nLeather Ln, London EC1N
+        7TJ</string>
+    <string name="greenwich_food_market_address"><b>Address:</b>\n\nGreenwich High Road, London,
+        SE10 9HZ</string>
+    <string name="partridges_food_market_address"><b>Address:</b>\n\n17-21 Gloucester Rd,
+        Kensington, London SW7 4PL</string>
+    <string name="dalston_food_market_address"><b>Address:</b>\n\nPetchey Academy, Shacklewell Lane,
+        London E8 2EY</string>
+    <string name="maltby_food_market_address"><b>Address:</b>\n\nMaltby Street, London, SE1 2HQ
+    </string>
+    <string name="berwick_food_market_address"><b>Address:</b>\n\n Berwick St, Soho, London W1F
+        8ST</string>
+    <string name="chatsworth_food_market_address"><b>Address:</b>\n\n46-51 Chatsworth Rd, London E5
+        0LH</string>
+    <string name="broadway_food_market_address"><b>Address:</b>\n\nThe Broadway, London, E8 4QJ
+    </string>
+
+
+    <!-- FoodMarketsFragment Description Strings -->
+    <string name="southbank_food_market_description">Sed tollit persius id, ad elitr possim viderer
+        per. Nam duis simul maiorum no, no his animal adolescens. Ne mea dico epicuri omittantur.
+        Sea error platonem ad. Wisi melius quaestio ad cum, duo molestiae definiebas et. \n\nIus
+        dicit ludus expetenda no, ne usu vidit ferri phaedrum. Usu an illud choro, mnesarchum
+        necessitatibus id ius. Has euismod omittam intellegam id, quo elit eruditi ocurreret eu.
+        Postea luptatum id sea, vel an quem erant dolores. Ei idque inani delicatissimi per,
+        euismod inermis eu eam.</string>
+
+    <string name="borough_food_market_description">In duo sale persius, vis ut everti debitis
+        consequat. Usu saperet fuisset ut, eam ad soluta tamquam philosophia. Modo postea nam ei.
+        Consul quodsi ad sed, sit mucius iriure at.\n\nVis debet equidem tacimates in. Debet
+        euismod eum cu, duo in iudicabit constituto. Vim ne aeterno diceret quaestio, no ullum
+        inimicus ius, vim facer viris et. Sit mollis veritus mentitum ei, ea detraxit intellegam
+        reformidans sea.\n\nEu vix augue vitae, equidem adversarium concludaturque cum no, mea
+        eirmod nostrum maluisset ut. Alii suas laoreet at est, cum quando torquatos ea. Elitr
+        audire forensibus cu duo, dolorum consulatu accommodare per no, an cum error dolor quando.
+        Eam no cibo sanctus dolorem, movet aliquam expetenda quo ex, et eam augue possim. Et est
+        errem possim, nec graece dicunt percipit no.</string>
+
+    <string name="camden_food_market_description">Lorem ipsum dolor sit amet, id dicit aliquid
+        percipit qui. Unum adhuc ancillae te mel. Ut usu dicit albucius disputando, eu vim wisi
+        velit, molestie accusamus liberavisse at mei. Eum cetero inermis perpetua et, suas doming
+        deleniti eam ut. Aliquip fabulas at vix. Mei no oratio maiestatis, cibo error nam ne. Ea
+        has sanctus referrentur. \n\nEu essent forensibus vel. Et petentium mnesarchum mel, ne
+        consul splendide  deterruisset eum, qui nostro noluisse scaevola id. Per utinam semper ut,
+        quo equidem facilis cu. Ex eam insolens facilisis. Id semper mnesarchum scripserit per, ex
+        possim facilisi eleifend est, cetero animal vix id.</string>
+
+    <string name="leather_lane_food_market_description">At vis harum platonem gloriatur. An cum
+        prodesset ullamcorper, solet vivendo at est, in cetero elaboraret appellantur vim. Pro
+        impetus sensibus id, ne ornatus debitis appellantur mel. Homero officiis maiestatis eos
+        ea, sale prima delectus vel an. Ius graeco feugait mentitum et, qui cu salutatus tincidunt
+        expetendis, te per torquatos definitionem. Ei ius summo habemus, ea clita essent mei, mel
+        putent adipisci inciderint ea. Mel at eirmod hendrerit, cum eu verterem reprimique
+        honestatis.</string>
+
+    <string name="greenwich_food_market_description">Pro petentium voluptatibus eu. In dolore
+        usu. An quo solum harum fabellas, vel at percipit oporteat. Tractatos disputando ne his,
+        vel facilisi incorrupte ei, his ei noster erroribus moderatius.\n\nChoro efficiantur mel
+        an, veniam mollis adolescens sea et. Id vim ornatus assueverit, ea impetus suavitate
+        scriptorem eam. Ad eum posse iudicabit expetendis, ex vim liber saperet patrioque. Has at
+        possim conclusionemque. In fabulas accusam mel, ipsum putent disputationi pro ne. Id quot
+        graeco mandamus duo, duo corpora omnesque et, quot putent legimus te pro.\n\nCu ullum
+        principes eos, posse mucius aeterno vix et. Ea electram forensibus mnesarchum eos, adhuc
+        verear debitis mei ad, ne nec affert mollis. Case nonumy vivendo ut ius. Ei mei labore
+        minimum aliquando.</string>
+
+    <string name="partridges_food_market_description">Vel omnes graeco pericula ut. Nominavi
+        delectus repudiare vim in, pro ad omittam detraxit interpretaris. Odio meliore nam ea.
+        Tractatos maiestatis usu ei, dicant consectetuer has at. Ne numquam volumus scripserit eos,
+        omnium volumus pericula cu mei. Cu pro natum decore.</string>
+
+    <string name="dalston_food_market_description">Mel accumsan eleifend ea. Verear repudiandae no
+        pri, ea nam utinam scribentur, ius lorem nemore ut. Et qui falli electram. Est ei corrumpit
+        voluptaria, cum ea fugit euismod definiebas, scaevola assueverit sed an.\n\nEligendi
+        recteque salutatus per an, mollis abhorreant comprehensam ad mei. Cu timeam virtute nusquam
+        sed, augue postulant expetendis an per, ius solum mediocritatem ne. Tale eirmod cu vix. Sed
+        soluta omnium efficiantur ne, at mei dicunt eirmod delenit. Ponderum abhorreant
+        necessitatibus eam cu.</string>
+
+    <string name="maltby_food_market_description">Appareat fabellas maiestatis ei sea, pri errem
+        assueverit dissentiet an. An nec mutat argumentum. Te eos noluisse vivendum quaestio,
+        porro solet veritus eu mei, oblique suscipit cu his. Debet nobis assentior ei duo, qui
+        nisl equidem cu. Cu vide possim sit, ne sanctus pertinacia delicatissimi quo, nec mutat
+        aperiam id. \n\nEa oblique constituto sea, facilis eloquentiam mel ad, adhuc adipisci ea
+        vim. Ius ne laoreet blandit conclusionemque. Ei aeque dolorem mea, laoreet nostrum ad mea,
+        per no mucius perpetua consequuntur. Quo iusto fuisset temporibus te.</string>
+
+    <string name="berwick_food_market_description"> has. At mundi recusabo torquatos vix, ut
+        eam quem velit, ea has epicurei scaevola. Altera qualisque ius at, vitae semper epicuri
+        vim et. \n\nNulla vocent verterem eam id. Mea no assum signiferumque. Ut erat suscipiantur
+        has, id tation officiis accommodare usu. Mel eu lorem similique. Eum expetenda intellegam
+        in, summo euismod mea ut.</string>
+
+    <string name="chatsworth_food_market_description">Ne pri audire bonorum, cum quod sonet
+        mentitum eu, eos nibh verear eu. Modus gubergren vituperatoribus no qui, pro homero
+        complectitur in, clita graeci sed id. Qui animal graecis et, ei nam habeo oporteat
+        salutatus. Vim cu erat regione fabellas.\n\nLorem ipsum dolor sit amet, veri quando
+        regione pro et. Nec et soleat vivendo. Cum ei virtute dolorem deterruisset. No albucius
+        tractatos suavitate nam, eos laudem constituto eu, an consul ridens est. An his noster
+        convenire periculis.</string>
+
+    <string name="broadway_food_market_description">Lorem ipsum dolor sit amet, no eum posse causae
+        inermis. Eu cum essent postulant persequeris, ei nec graece melius aperiam, cu graeco
+        vulputate usu. In vel alii alienum. Nec ad oratio eloquentiam, et est hendrerit constituto,
+        quo dictas vituperata eu. Mel ut hinc virtute officiis. \n\nCu propriae urbanitas vel,
+        enim consequuntur ad has. Eu usu deserunt incorrupte honestatis, solum diceret nonumes ut
+        est, mea mazim mnesarchum ut. Equidem dignissim eu mei, probo nostrum convenire sea ex.
+        His tota habeo fuisset ne, euismod probatus intellegebat cu per, vis in alia mutat altera.
+        Ea vim nemore prodesset contentiones.</string>
+
+
+    <!-- FoodMarketsFragment Days Open Strings -->
+    <string name="southbank_food_market_opening_times"><b>OPENING TIMES:</b> \n\nFriday: 12:00
+        - 20:00, Saturday: 11:00 -20:00, Sunday: 12:00 - 18:00, Monday (bank holidays only) 12:00 -
+        18:00</string>
+
+    <string name="borough_food_market_opening_times"><b>OPENING TIMES:</b> \n\nMonday to Saturday
+        10:00 to 17:00</string>
+
+    <string name="camden_food_market_opening_times"><b>OPENING TIMES:</b> \n\nCamden Lock market
+        is open seven days a week, every day except Christmas Day.</string>
+
+    <string name="leather_lane_food_market_opening_times"><b>OPENING TIMES:</b> \n\nLeather Lane
+        Market runs every weekday from around 10am – 2pm,</string>
+
+    <string name="greenwich_food_market_opening_times"><b>OPENING TIMES:</b> \n\nTuesday to Sunday
+        and Bank Holidays 10:00 to 17:30.</string>
+
+    <string name="partridges_food_market_opening_times"><b>OPENING TIMES:</b> \n\nSaturdays open
+        all day</string>
+
+    <string name="dalston_food_market_opening_times"><b>OPENING TIMES:</b> \n\nSundays, 10am-4pm
+    </string>
+
+    <string name="maltby_food_market_opening_times"><b>OPENING TIMES:</b> \n\nThe market is open
+        Saturdays between 9am-4pm and Sundays between 11am-4pm</string>
+
+    <string name="berwick_food_market_opening_times"><b>OPENING TIMES:</b> \n\nMonday to Saturday
+        08:00 to 18:00</string>
+
+    <string name="chatsworth_food_market_opening_times"><b>OPENING TIMES:</b> \n\nTuesday to
+        Sunday 11:00 to 23:00</string>
+
+    <string name="broadway_food_market_opening_times"><b>OPENING TIMES:</b> \n\nSaturday 09:00 -
         17:00</string>
 
-    <string name="alfies_antique_market_openning_times">OPENING TIMES: \n\nTuesday - Saturday:
-        10:00-18:00</string>
 
-    <string name="broadway_market_openning_times">OPENING TIMES: \n\nSaturday 09:00 - 17:00</string>
+    <!--PaidAttractionsFragment addresses-->
+    <string name="warner_bros_address"><b>Address:</b>\n\nStudio Tour Drive, Leavesden, WD25 7LR
+    </string>
+    <string name="buckingham_palace_address"><b>Address:</b>\n\nBuckingham Palace, London,
+        SW1A 1AA</string>
+    <string name="london_eye_address"><b>Address:</b>\n\n54 - 56 Chalk Farm Road, Camden
+        Lock Place, London, NW1 8AF</string>
+    <string name="madame_tussauds_address"><b>Address:</b>\n\nLeather Ln, London EC1N
+        7TJ</string>
+    <string name="sea_life_address"><b>Address:</b>\n\nCounty Hall, Riverside Building, London,
+        SE1 7PB</string>
+    <string name="tower_of_london_address"><b>Address:</b>\n\nTower Hill, London, EC3N 4AB</string>
+    <string name="london_dungeon_address"><b>Address:</b>\n\nCounty Hall, Riverside Building,
+        London, SE1 7PB</string>
 
-    <string name="southbank_market_openning_times">OPENING TIMES: \n\nFriday: 12:00 -20:00,
-        Saturday: 11:00 -20:00, Sunday: 12:00 - 18:00, Monday (bank holidays only) 12:00 - 18:00</string>
 
-    <string name="maltby_market_openning_times">OPENING TIMES: \n\nThe market is open Saturdays
-        between 9am-4pm and Sundays between 11am-4pm</string>
+    <!-- PaidAttractionsFragment Description Strings -->
+    <string name="warner_bros_description">Sed tollit persius id, ad elitr possim viderer
+        per. Nam duis simul maiorum no, no his animal adolescens. Ne mea dico epicuri omittantur.
+        Sea error platonem ad. Wisi melius quaestio ad cum, duo molestiae definiebas et. \n\nIus
+        dicit ludus expetenda no, ne usu vidit ferri phaedrum. Usu an illud choro, mnesarchum
+        necessitatibus id ius. Has euismod omittam intellegam id, quo elit eruditi ocurreret eu.
+        Postea luptatum id sea, vel an quem erant dolores. Ei idque inani delicatissimi per,
+        euismod inermis eu eam.</string>
 
-    <string name="columbia_market_openning_times">OPENING TIMES: \n\nSunday 08:00 – 15:00 (closing
-        time approximate)</string>
+    <string name="buckingham_palace_description">In duo sale persius, vis ut everti debitis
+        consequat. Usu saperet fuisset ut, eam ad soluta tamquam philosophia. Modo postea nam ei.
+        Consul quodsi ad sed, sit mucius iriure at.\n\nVis debet equidem tacimates in. Debet
+        euismod eum cu, duo in iudicabit constituto. Vim ne aeterno diceret quaestio, no ullum
+        inimicus ius, vim facer viris et. Sit mollis veritus mentitum ei, ea detraxit intellegam
+        reformidans sea.\n\nEu vix augue vitae, equidem adversarium concludaturque cum no, mea
+        eirmod nostrum maluisset ut. Alii suas laoreet at est, cum quando torquatos ea. Elitr
+        audire forensibus cu duo, dolorum consulatu accommodare per no, an cum error dolor quando.
+        Eam no cibo sanctus dolorem, movet aliquam expetenda quo ex, et eam augue possim. Et est
+        errem possim, nec graece dicunt percipit no.</string>
 
-    <string name="navigation_drawer_open">Open</string>
-    <string name="navigation_drawer_close">Close</string>
+    <string name="london_eye_description">Lorem ipsum dolor sit amet, id dicit aliquid
+        percipit qui. Unum adhuc ancillae te mel. Ut usu dicit albucius disputando, eu vim wisi
+        velit, molestie accusamus liberavisse at mei. Eum cetero inermis perpetua et, suas doming
+        deleniti eam ut. Aliquip fabulas at vix. Mei no oratio maiestatis, cibo error nam ne. Ea
+        has sanctus referrentur. \n\nEu essent forensibus vel. Et petentium mnesarchum mel, ne
+        consul splendide  deterruisset eum, qui nostro noluisse scaevola id. Per utinam semper ut,
+        quo equidem facilis cu. Ex eam insolens facilisis. Id semper mnesarchum scripserit per, ex
+        possim facilisi eleifend est, cetero animal vix id.</string>
+
+    <string name="madame_tussauds_description">At vis harum platonem gloriatur. An cum
+        prodesset ullamcorper, solet vivendo at est, in cetero elaboraret appellantur vim. Pro
+        impetus sensibus id, ne ornatus debitis appellantur mel. Homero officiis maiestatis eos
+        ea, sale prima delectus vel an. Ius graeco feugait mentitum et, qui cu salutatus tincidunt
+        expetendis, te per torquatos definitionem. Ei ius summo habemus, ea clita essent mei, mel
+        putent adipisci inciderint ea. Mel at eirmod hendrerit, cum eu verterem reprimique
+        honestatis.</string>
+
+    <string name="sea_life_description">Pro petentium voluptatibus eu. In dolore
+        usu. An quo solum harum fabellas, vel at percipit oporteat. Tractatos disputando ne his,
+        vel facilisi incorrupte ei, his ei noster erroribus moderatius.\n\nChoro efficiantur mel
+        an, veniam mollis adolescens sea et. Id vim ornatus assueverit, ea impetus suavitate
+        scriptorem eam. Ad eum posse iudicabit expetendis, ex vim liber saperet patrioque. Has at
+        possim conclusionemque. In fabulas accusam mel, ipsum putent disputationi pro ne. Id quot
+        graeco mandamus duo, duo corpora omnesque et, quot putent legimus te pro.\n\nCu ullum
+        principes eos, posse mucius aeterno vix et. Ea electram forensibus mnesarchum eos, adhuc
+        verear debitis mei ad, ne nec affert mollis. Case nonumy vivendo ut ius. Ei mei labore
+        minimum aliquando.</string>
+
+    <string name="tower_of_london_description">Vel omnes graeco pericula ut. Nominavi
+        delectus repudiare vim in, pro ad omittam detraxit interpretaris. Odio meliore nam ea.
+        Tractatos maiestatis usu ei, dicant consectetuer has at. Ne numquam volumus scripserit eos,
+        omnium volumus pericula cu mei. Cu pro natum decore.</string>
+
+    <string name="london_dungeon_description">Mel accumsan eleifend ea. Verear repudiandae no
+        pri, ea nam utinam scribentur, ius lorem nemore ut. Et qui falli electram. Est ei corrumpit
+        voluptaria, cum ea fugit euismod definiebas, scaevola assueverit sed an.\n\nEligendi
+        recteque salutatus per an, mollis abhorreant comprehensam ad mei. Cu timeam virtute nusquam
+        sed, augue postulant expetendis an per, ius solum mediocritatem ne. Tale eirmod cu vix. Sed
+        soluta omnium efficiantur ne, at mei dicunt eirmod delenit. Ponderum abhorreant
+        necessitatibus eam cu.</string>
+
+
+    <!-- PaidAttractionsFragment Days Open Strings -->
+    <string name="warner_bros_opening_times"><b>OPENING TIMES:</b> \n\nDaily 10:00 - 19:00</string>
+
+    <string name="buckingham_palace_opening_times"><b>OPENING TIMES:</b> \n\nMonday to Saturday
+        10:00 to 17:00</string>
+
+    <string name="london_eye_opening_times"><b>OPENING TIMES:</b> \n\nThe Coca-Cola London Eye is
+        open seven days a week, every day except Christmas Day.</string>
+
+    <string name="madame_tussauds_opening_times"><b>OPENING TIMES:</b> \n\nMadame Tussauds is open
+        seven days a week. Normal opening hours are 09:30 – 17:30.</string>
+
+    <string name="sea_life_opening_times"><b>OPENING TIMES:</b> \n\nDaily 10:00 - 19:00</string>
+
+    <string name="tower_of_london_opening_times"><b>OPENING TIMES:</b> \n\nDaily 10:00 - 18:00
+    </string>
+
+    <string name="london_dungeon_opening_times"><b>OPENING TIMES:</b> \n\nSeven days a week every
+        day of the year except Christmas Day.</string>
+
+
+    <!--FreeAttratctionsFragment addresses-->
+    <string name="british_museum_address"><b>Address:</b>\n\nBritish Museum, Great Russell Street,
+        London, WC1B 3DG</string>
+    <string name="national_gallery_address"><b>Address:</b>\n\nTrafalgar Square, London, WC2N
+        5DN</string>
+    <string name="tate_modern_address"><b>Address:</b>\n\nBankside, London, SE1 9TG</string>
+    <string name="natural_history_museum_address"><b>Address:</b>\n\nCromwell Road, London, SW7
+        5BD</string>
+    <string name="somerset_house_address"><b>Address:</b>\n\nThe Strand, London, WC2R 1LA</string>
+    <string name="science_museum_address"><b>Address:</b>\n\nScience Museum, Exhibition Road,
+        London, SW7 2DD</string>
+    <string name="v_and_a_museum_address"><b>Address:</b>\n\nCromwell Road, South Kensington,
+        London, SW7 2RL</string>
+
+
+    <!-- FreeAttratctionsFragment Description Strings -->
+    <string name="british_museum_description">Sed tollit persius id, ad elitr possim viderer
+        per. Nam duis simul maiorum no, no his animal adolescens. Ne mea dico epicuri omittantur.
+        Sea error platonem ad. Wisi melius quaestio ad cum, duo molestiae definiebas et. \n\nIus
+        dicit ludus expetenda no, ne usu vidit ferri phaedrum. Usu an illud choro, mnesarchum
+        necessitatibus id ius. Has euismod omittam intellegam id, quo elit eruditi ocurreret eu.
+        Postea luptatum id sea, vel an quem erant dolores. Ei idque inani delicatissimi per,
+        euismod inermis eu eam.</string>
+
+    <string name="national_gallery_description">In duo sale persius, vis ut everti debitis
+        consequat. Usu saperet fuisset ut, eam ad soluta tamquam philosophia. Modo postea nam ei.
+        Consul quodsi ad sed, sit mucius iriure at.\n\nVis debet equidem tacimates in. Debet
+        euismod eum cu, duo in iudicabit constituto. Vim ne aeterno diceret quaestio, no ullum
+        inimicus ius, vim facer viris et. Sit mollis veritus mentitum ei, ea detraxit intellegam
+        reformidans sea.\n\nEu vix augue vitae, equidem adversarium concludaturque cum no, mea
+        eirmod nostrum maluisset ut. Alii suas laoreet at est, cum quando torquatos ea. Elitr
+        audire forensibus cu duo, dolorum consulatu accommodare per no, an cum error dolor quando.
+        Eam no cibo sanctus dolorem, movet aliquam expetenda quo ex, et eam augue possim. Et est
+        errem possim, nec graece dicunt percipit no.</string>
+
+    <string name="tate_modern_description">Lorem ipsum dolor sit amet, id dicit aliquid
+        percipit qui. Unum adhuc ancillae te mel. Ut usu dicit albucius disputando, eu vim wisi
+        velit, molestie accusamus liberavisse at mei. Eum cetero inermis perpetua et, suas doming
+        deleniti eam ut. Aliquip fabulas at vix. Mei no oratio maiestatis, cibo error nam ne. Ea
+        has sanctus referrentur. \n\nEu essent forensibus vel. Et petentium mnesarchum mel, ne
+        consul splendide  deterruisset eum, qui nostro noluisse scaevola id. Per utinam semper ut,
+        quo equidem facilis cu. Ex eam insolens facilisis. Id semper mnesarchum scripserit per, ex
+        possim facilisi eleifend est, cetero animal vix id.</string>
+
+    <string name="natural_history_museum_description">At vis harum platonem gloriatur. An cum
+        prodesset ullamcorper, solet vivendo at est, in cetero elaboraret appellantur vim. Pro
+        impetus sensibus id, ne ornatus debitis appellantur mel. Homero officiis maiestatis eos
+        ea, sale prima delectus vel an. Ius graeco feugait mentitum et, qui cu salutatus tincidunt
+        expetendis, te per torquatos definitionem. Ei ius summo habemus, ea clita essent mei, mel
+        putent adipisci inciderint ea. Mel at eirmod hendrerit, cum eu verterem reprimique
+        honestatis.</string>
+
+    <string name="somerset_house_description">Pro petentium voluptatibus eu. In dolore
+        usu. An quo solum harum fabellas, vel at percipit oporteat. Tractatos disputando ne his,
+        vel facilisi incorrupte ei, his ei noster erroribus moderatius.\n\nChoro efficiantur mel
+        an, veniam mollis adolescens sea et. Id vim ornatus assueverit, ea impetus suavitate
+        scriptorem eam. Ad eum posse iudicabit expetendis, ex vim liber saperet patrioque. Has at
+        possim conclusionemque. In fabulas accusam mel, ipsum putent disputationi pro ne. Id quot
+        graeco mandamus duo, duo corpora omnesque et, quot putent legimus te pro.\n\nCu ullum
+        principes eos, posse mucius aeterno vix et. Ea electram forensibus mnesarchum eos, adhuc
+        verear debitis mei ad, ne nec affert mollis. Case nonumy vivendo ut ius. Ei mei labore
+        minimum aliquando.</string>
+
+    <string name="science_museum_description">Vel omnes graeco pericula ut. Nominavi
+        delectus repudiare vim in, pro ad omittam detraxit interpretaris. Odio meliore nam ea.
+        Tractatos maiestatis usu ei, dicant consectetuer has at. Ne numquam volumus scripserit eos,
+        omnium volumus pericula cu mei. Cu pro natum decore.</string>
+
+    <string name="v_and_a_museum_description">Mel accumsan eleifend ea. Verear repudiandae no
+        pri, ea nam utinam scribentur, ius lorem nemore ut. Et qui falli electram. Est ei corrumpit
+        voluptaria, cum ea fugit euismod definiebas, scaevola assueverit sed an.\n\nEligendi
+        recteque salutatus per an, mollis abhorreant comprehensam ad mei. Cu timeam virtute nusquam
+        sed, augue postulant expetendis an per, ius solum mediocritatem ne. Tale eirmod cu vix. Sed
+        soluta omnium efficiantur ne, at mei dicunt eirmod delenit. Ponderum abhorreant
+        necessitatibus eam cu.</string>
+
+
+    <!-- FreeAttratctionsFragment Days Open Strings -->
+    <string name="british_museum_opening_times"><b>OPENING TIMES:</b> \n\nOpen daily 10.00-17.30.
+        Open late on Fridays until 20.30.</string>
+
+    <string name="national_gallery_opening_times"><b>OPENING TIMES:</b> \n\nDaily 10am to 6pm,
+        and Friday 10am to 9pm</string>
+
+    <string name="tate_modern_opening_times"><b>OPENING TIMES:</b> \n\nSunday – Thursday,
+        10.00–18.00 \n\nFriday and Saturday, 10.00–22.00</string>
+
+    <string name="natural_history_museum_opening_times"><b>OPENING TIMES:</b> \n\nOpen daily 10.00
+        - 17.50. Last admission 17.30. Open late on the last Friday of each month. Closed 24 -
+        26 December.</string>
+
+    <string name="somerset_house_opening_times"><b>OPENING TIMES:</b> \n\nTuesday to Sunday
+        and Bank Holidays 10:00 to 17:30.</string>
+
+    <string name="science_museum_opening_times"><b>OPENING TIMES:</b> \n\nOpen 10.00-18.00 daily.
+    </string>
+
+    <string name="v_and_a_museum_opening_times"><b>OPENING TIMES:</b> \n\nOpening times 10.00-17.45
+        daily, Friday 10.00-22.00 \n\nClosed 24, 25 and 26 December.</string>
 
 </resources>

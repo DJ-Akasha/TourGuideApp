@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ListView;
+import android.widget.GridView;
 
 import java.util.ArrayList;
 
@@ -35,30 +35,32 @@ public class PaidAttractionsFragment extends Fragment {
 
         // Create a list of Market places
         final ArrayList<Places> places = new ArrayList<>();
-        // Camden Lock Photo by Kevin Grieve on Unsplash
-        places.add(new Places("Camden Lock Market", R.string.camden_market_openning_times, R.string.camden_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Portobello Road Market", R.string.portobello_market_openning_times, R.string.portobello_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Covent Garden London", R.string.covent_market_openning_times, R.string.covent_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Greenwich Market", R.string.greenwich_market_openning_times, R.string.greenwich_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Old Spitalfields Market", R.string.old_spitafields_market_openning_times, R.string.old_spitafields_market_description,  R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Brick Lane Market", R.string.brick_lane_market_openning_times, R.string.brick_lane_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Alfie's Antique Market", R.string.alfies_antique_market_openning_times, R.string.alfies_antique_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Broadway Market", R.string.broadway_market_openning_times, R.string.broadway_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Southbank Centre Market", R.string.southbank_market_openning_times, R.string.southbank_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Maltby Street Market", R.string.maltby_market_openning_times, R.string.maltby_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Columbia Road Flowers", R.string.columbia_market_openning_times, R.string.columbia_market_description,  R.drawable.kevin_grieve_572075_camden));
-
+        // Warner Bros Photo by Rev Stan on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Warner Bros Studio Tour", R.string.warner_bros_opening_times, R.string.warner_bros_description, R.drawable.warner_bros, R.string.warner_bros_address));
+        // Buckingham Palace Photo by Jordan on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Buckingham Palace Tour", R.string.buckingham_palace_opening_times, R.string.buckingham_palace_description, R.drawable.buckingham_palace, R.string.buckingham_palace_address));
+        // London Eye Photo by gmacfadyen on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Coca-Cola London Eye", R.string.london_eye_opening_times, R.string.london_eye_description, R.drawable.london_eye, R.string.london_eye_address));
+        // Madame Tussauds Photo by Tico on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Madame Tussauds Museum", R.string.madame_tussauds_opening_times, R.string.madame_tussauds_description, R.drawable.madame_tussauds, R.string.madame_tussauds_address));
+        // Sea Life Photo by Bas Boerman on Flickr - try find another if possible - Licence: https://creativecommons.org/licenses/by-nc/2.0/
+        places.add(new Places("Sea Life Aquarium", R.string.sea_life_opening_times, R.string.sea_life_description,  R.drawable.sea_life, R.string.sea_life_address));
+        // Tower of London Photo by Marc Pether-Longman on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Tower of London", R.string.tower_of_london_opening_times, R.string.tower_of_london_description, R.drawable.tower_london, R.string.tower_of_london_address));
+        // London Dungeon Photo by Óscar del Río on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("London Dungeon", R.string.london_dungeon_opening_times, R.string.london_dungeon_description, R.drawable.dungeon, R.string.london_dungeon_address));
 
         // Create an ArrayAdapter.
         final PlacesAdapter adapter = new PlacesAdapter(getActivity(),places);
 
         // Find the ListView object with the id list which is in the places_list.xml file.
-        final ListView listView = rootView.findViewById(R.id.list);
+        final GridView listView = rootView.findViewById(R.id.list);
 
         // Makes the ListView use the ArrayAdapter we created above, so that the
         // ListView will display list items for each word in the list of places.
         listView.setAdapter(adapter);
 
+        // setOnItemClickListener so that when user touches a list item it opens in another activity.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

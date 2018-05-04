@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView
+<GridView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:drawSelectorOnTop="true">
+    android:columnWidth="@dimen/column_width"
+    android:drawSelectorOnTop="true"
+    android:numColumns="auto_fit"
+    android:scrollbars="none"
+    android:verticalSpacing="@dimen/vertical_spacing"
+    tools:listitem="@layout/list_item"
+    android:background="@color/colorPrimaryLight">
 
-</ListView>
+</GridView>

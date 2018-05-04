@@ -1,17 +1,13 @@
 package com.example.android.tourguide;
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.ThemedSpinnerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ListView;
+import android.widget.GridView;
 
 import java.util.ArrayList;
 
@@ -39,30 +35,34 @@ public class MarketsFragment extends Fragment {
 
         // Create a list of Market places
         final ArrayList<Places> places = new ArrayList<>();
-        // Camden Lock Photo by Kevin Grieve on Unsplash
-        places.add(new Places("Camden Lock Market", R.string.camden_market_openning_times, R.string.camden_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Portobello Road Market", R.string.portobello_market_openning_times, R.string.portobello_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Covent Garden London", R.string.covent_market_openning_times, R.string.covent_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Greenwich Market", R.string.greenwich_market_openning_times, R.string.greenwich_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Old Spitalfields Market", R.string.old_spitafields_market_openning_times, R.string.old_spitafields_market_description,  R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Brick Lane Market", R.string.brick_lane_market_openning_times, R.string.brick_lane_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Alfie's Antique Market", R.string.alfies_antique_market_openning_times, R.string.alfies_antique_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Broadway Market", R.string.broadway_market_openning_times, R.string.broadway_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Southbank Centre Market", R.string.southbank_market_openning_times, R.string.southbank_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Maltby Street Market", R.string.maltby_market_openning_times, R.string.maltby_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Columbia Road Flowers", R.string.columbia_market_openning_times, R.string.columbia_market_description,  R.drawable.kevin_grieve_572075_camden));
-
+        // Camden Lock Photo by George Rex on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Camden Lock Market", R.string.camden_market_opening_times, R.string.camden_market_description, R.drawable.camden_lock, R.string.camden_market_address));
+        // Portobello Road Photo by George Rex on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Portobello Road Market", R.string.portobello_market_opening_times, R.string.portobello_market_description, R.drawable.portobello_road, R.string.camden_market_address));
+        // Covent Garden Photo by Tredok on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Covent Garden London", R.string.covent_market_opening_times, R.string.covent_market_description, R.drawable.covent_garden, R.string.covent_market_address));
+        // Greenwich Market Photo by Jonathan Cook on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Greenwich Market", R.string.greenwich_market_opening_times, R.string.greenwich_market_description, R.drawable.greenwich_market, R.string.greenwich_market_address));
+        // Old Spitalfields Photo by Owen Blacker on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Old Spitalfields Market", R.string.old_spitafields_market_opening_times, R.string.old_spitafields_market_description,  R.drawable.old_spit, R.string.old_spitafields_market_address));
+        // Brick Lane Photo by Garry Knight on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Brick Lane Market", R.string.brick_lane_market_opening_times, R.string.brick_lane_market_description, R.drawable.brick_lane, R.string.brick_lane_market_address));
+        // Alfie's Antique Market Photo by Rain Rabbit on Flickr - Licence: https://creativecommons.org/licenses/by-nc/2.0/
+        places.add(new Places("Alfie's Antique Market", R.string.alfies_antique_market_opening_times, R.string.alfies_antique_market_description, R.drawable.alfies_antique, R.string.alfies_antique_market_address));
+        // Colombia Street Flowers Market Photo by Jerome Yewdalll on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Columbia Road Flowers", R.string.columbia_market_opening_times, R.string.columbia_market_description,  R.drawable.columbia_market, R.string.columbia_market_address));
 
         // Create an ArrayAdapter.
         final PlacesAdapter adapter = new PlacesAdapter(getActivity(),places);
 
         // Find the ListView object with the id list which is in the places_list.xml file.
-        final ListView listView = rootView.findViewById(R.id.list);
+        final GridView listView = rootView.findViewById(R.id.list);
 
         // Makes the ListView use the ArrayAdapter we created above, so that the
         // ListView will display list items for each word in the list of places.
         listView.setAdapter(adapter);
 
+        // setOnItemClickListener so that when user touches a list item it opens in another activity.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -74,6 +74,4 @@ public class MarketsFragment extends Fragment {
 
         return rootView;
     }
-
-
 }

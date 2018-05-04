@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ListView;
+import android.widget.GridView;
 
 import java.util.ArrayList;
 
@@ -35,30 +35,32 @@ public class FreeAttractionsFragment extends Fragment {
 
         // Create a list of Market places
         final ArrayList<Places> places = new ArrayList<>();
-        // Camden Lock Photo by Kevin Grieve on Unsplash
-        places.add(new Places("Camden Lock Market", R.string.camden_market_openning_times, R.string.camden_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Portobello Road Market", R.string.portobello_market_openning_times, R.string.portobello_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Covent Garden London", R.string.covent_market_openning_times, R.string.covent_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Greenwich Market", R.string.greenwich_market_openning_times, R.string.greenwich_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Old Spitalfields Market", R.string.old_spitafields_market_openning_times, R.string.old_spitafields_market_description,  R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Brick Lane Market", R.string.brick_lane_market_openning_times, R.string.brick_lane_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Alfie's Antique Market", R.string.alfies_antique_market_openning_times, R.string.alfies_antique_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Broadway Market", R.string.broadway_market_openning_times, R.string.broadway_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Southbank Centre Market", R.string.southbank_market_openning_times, R.string.southbank_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Maltby Street Market", R.string.maltby_market_openning_times, R.string.maltby_market_description, R.drawable.kevin_grieve_572075_camden));
-        places.add(new Places("Columbia Road Flowers", R.string.columbia_market_openning_times, R.string.columbia_market_description,  R.drawable.kevin_grieve_572075_camden));
-
+        // British Museum Photo by Pablo Fernández on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("British Museum", R.string.british_museum_opening_times, R.string.british_museum_description, R.drawable.british_museum, R.string.british_museum_address));
+        // National Gallery Photo by Maurice on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("National Gallery", R.string.national_gallery_opening_times, R.string.national_gallery_description, R.drawable.national_gallery, R.string.national_gallery_address));
+        // Tate Modern Photo by Misha Popovikj on Flickr - Licence: https://creativecommons.org/licenses/by-sa/2.0/
+        places.add(new Places("Tate Modern Museum", R.string.tate_modern_opening_times, R.string.tate_modern_description, R.drawable.tate, R.string.tate_modern_address));
+        // Natural History Museum Photo by neiljs on Flickr - Licence: https://creativecommons.org/licenses/by/2.0/
+        places.add(new Places("Natural History Museum", R.string.natural_history_museum_opening_times, R.string.natural_history_museum_description, R.drawable.natural_history, R.string.natural_history_museum_address));
+        // Somerset House Photo by Dave Pearce on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Somerset House", R.string.somerset_house_opening_times, R.string.somerset_house_description,  R.drawable.somerset_house, R.string.somerset_house_address));
+        // Science Museum Photo by James F Clay on Flickr - Licence: https://creativecommons.org/licenses/by-nc/2.0/
+        places.add(new Places("Science Museum", R.string.science_museum_opening_times, R.string.science_museum_description, R.drawable.science_museum, R.string.science_museum_address));
+        // V&A museum Photo by Nick Garrod on Flickr - Licence: https://creativecommons.org/licenses/by-nc-nd/2.0/
+        places.add(new Places("Victoria & Albert Museum", R.string.v_and_a_museum_opening_times, R.string.v_and_a_museum_description, R.drawable.v_and_a_museum, R.string.v_and_a_museum_address));
 
         // Create an ArrayAdapter.
         final PlacesAdapter adapter = new PlacesAdapter(getActivity(),places);
 
         // Find the ListView object with the id list which is in the places_list.xml file.
-        final ListView listView = rootView.findViewById(R.id.list);
+        final GridView listView = rootView.findViewById(R.id.list);
 
         // Makes the ListView use the ArrayAdapter we created above, so that the
         // ListView will display list items for each word in the list of places.
         listView.setAdapter(adapter);
 
+        // setOnItemClickListener so that when user touches a list item it opens in another activity.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
