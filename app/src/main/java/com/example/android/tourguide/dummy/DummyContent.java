@@ -24,6 +24,9 @@ public class DummyContent {
     public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
     private static final int COUNT = 25;
+    public static final String MORE_DETAILS_INFORMATION_HERE = "\nMore details information here.";
+    public static final String DETAILS_ABOUT_ITEM = "Details about Item: ";
+    public static final String ITEM = "Item ";
 
     static {
         // Add some sample items.
@@ -38,14 +41,14 @@ public class DummyContent {
     }
 
     private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new DummyItem(String.valueOf(position), ITEM + position, makeDetails(position));
     }
 
     private static String makeDetails(int position) {
         StringBuilder builder = new StringBuilder();
-        builder.append("Details about Item: ").append(position);
+        builder.append(DETAILS_ABOUT_ITEM).append(position);
         for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
+            builder.append(MORE_DETAILS_INFORMATION_HERE);
         }
         return builder.toString();
     }

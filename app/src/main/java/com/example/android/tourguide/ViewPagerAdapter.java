@@ -11,11 +11,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 /**
- * {@link MarketsViewPagerAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
+ * {@link ViewPagerAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
  * each list item based on a data source which is a list of {@link Places} objects. However,
  * This is only for the {@link MarketsFragment} and {@link FoodMarketsFragment}
  */
-public class MarketsViewPagerAdapter extends FragmentPagerAdapter {
+public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     /**
      * The context of the app so that tab names will be displayed as they are strings.
@@ -23,31 +23,34 @@ public class MarketsViewPagerAdapter extends FragmentPagerAdapter {
     private Context mContext;
 
     /**
-     * Create a new {@link MarketsViewPagerAdapter} object.
+     * Create a new {@link ViewPagerAdapter} object.
      *
      * @param fragmentManager is the fragment manager that will keep each fragment's state in
      *                        the adapter across swipes.
      */
-    public MarketsViewPagerAdapter(Context context, FragmentManager fragmentManager) {
+    public ViewPagerAdapter(Context context, FragmentManager fragmentManager) {
         super(fragmentManager);
         mContext = context;
     }
 
     /**
      * Returns the {@link Fragment} that should be displayed for the given page number.
+     * Originally I was using an if/else statment for both methods, but the first reviewer
+     * suggested I use a switch instead so have made the changes.
      *
      * @param position
      */
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new MarketsFragment();
-        } else if (position == 1){
-            return new FoodMarketsFragment();
-        } else if (position == 2) {
-            return  new PaidAttractionsFragment();
-        }else {
-            return new FreeAttractionsFragment();
+        switch (position){
+            case 0:
+                return new MarketsFragment();
+            case 1:
+                return new FoodMarketsFragment();
+            case 2:
+                return  new PaidAttractionsFragment();
+            default:
+                return new FreeAttractionsFragment();
         }
     }
 
@@ -62,14 +65,15 @@ public class MarketsViewPagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.general_markets);
-        } else if (position == 1) {
-            return mContext.getString(R.string.food_markets);
-        } else if (position == 2) {
-            return mContext.getString(R.string.paid_attractions);
-        } else {
-            return mContext.getString(R.string.free_attractions);
+        switch (position){
+            case 0:
+                return mContext.getString(R.string.general_markets);
+            case 1:
+                return mContext.getString(R.string.food_markets);
+            case 2:
+                return mContext.getString(R.string.paid_attractions);
+            default:
+                return mContext.getString(R.string.free_attractions);
         }
     }
 }

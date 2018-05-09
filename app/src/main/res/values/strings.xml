@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">London Tour Guide</string>
+
+    <!-- General Strings -->
+    <string name="example_item">Example Item</string>
+    <string name="geo_location">geo:0,0?q=</string>
+    <string name="google_maps">com.google.android.apps.maps</string>
 
     <!-- Category Names -->
     <string name="markets">Markets</string>
@@ -274,6 +279,14 @@
     <string name="broadway_food_market_opening_times"><b>OPENING TIMES:</b> \n\nSaturday 09:00 -
         17:00</string>
 
+    <!-- Names of Places PaidAttractionsFragment Strings -->
+    <string name="warner_bros_studio_tour">Warner Bros Studio Tour</string>
+    <string name="buckingham_palace_tour">Buckingham Palace Tour</string>
+    <string name="coke_london_eye">Coca-Cola London Eye</string>
+    <string name="madame_tussauds_museum">Madame Tussauds Museum</string>
+    <string name="sea_life_aquarium">Sea Life Aquarium</string>
+    <string name="tower_of_london">Tower of London</string>
+    <string name="london_dungeon">London Dungeon</string>
 
     <!--PaidAttractionsFragment addresses-->
     <string name="warner_bros_address"><b>Address:</b>\n\nStudio Tour Drive, Leavesden, WD25 7LR
@@ -473,5 +486,33 @@
 
     <string name="v_and_a_museum_opening_times"><b>OPENING TIMES:</b> \n\nOpening times 10.00-17.45
         daily, Friday 10.00-22.00 \n\nClosed 24, 25 and 26 December.</string>
+    <string name="camden_lock">Camden Lock Market</string>
+    <string name="portobello">Portobello Road Market</string>
+    <string name="covent_garden">Covent Garden London</string>
+    <string name="greenwich">Greenwich Market</string>
+    <string name="old_spit">Old Spitalfields Market</string>
+    <string name="brick_lane">Brick Lane Market</string>
+    <string name="alfies">Alfie\'s Antique Market</string>
+    <string name="columbia">Columbia Road Flowers</string>
+    <string name="british_museum">British Museum</string>
+    <string name="national_gallery">National Gallery</string>
+    <string name="tate_modern">Tate Modern Museum</string>
+    <string name="natural_history">Natural History Museum</string>
+    <string name="somerset_house">Somerset House</string>
+    <string name="science__museum">Science Museum</string>
+    <string name="v_and_a__museum"><![CDATA[Victoria & Albert Museum]]></string>
+    <string name="southbank_centre">Southbank Centre Market</string>
+    <string name="borough_market">Borough Market</string>
+    <string name="camden_food_market">Camden Food Market</string>
+    <string name="leather_lane">Leather Lane Market</string>
+    <string name="greenwich_food_market">Greenwich Market</string>
+    <string name="partridges">Partridges Food Market</string>
+    <string name="dalston">Dalston Food Market</string>
+    <string name="berwick">Berwick Street Market</string>
+    <string name="broadway">Broadway Market</string>
+    <string name="maltby">Maltby Street Market</string>
+    <string name="chatsworth">Chatsworth Road Market</string>
+
+    <!-- Names of Places PaidAttractionsFragment Strings -->
 
 </resources>

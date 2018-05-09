@@ -17,7 +17,7 @@ public class PlacesActivity extends AppCompatActivity {
 
         // This intent is used for the getParcelableExtra so that it allows the movement of data
         Intent intent = getIntent();
-        Places places = intent.getParcelableExtra("Example Item");
+        Places places = intent.getParcelableExtra(getString(R.string.example_item));
 
         String nameOfPlace = places.getmNameOfPlace();
         int daysOpen = places.getmDaysOpen();
@@ -45,10 +45,14 @@ public class PlacesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String address = getString(physicalAddress);
 
-                Uri mapUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
+                Uri mapUri = Uri.parse(getString(R.string.geo_location) + Uri.encode(address));
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
+                mapIntent.setPackage(getString(R.string.google_maps));
+                // Check if the user's phone has an app to handle the implicit intent.
+                // If there is no app then the Tour Guide app will not crash thanks to this.
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
             }
         });
     }

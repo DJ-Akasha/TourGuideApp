@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 /**
  * The {@link MainActivity} is being used as the first activity to be shown.
  * It shows the {@link MarketsFragment} and the {@link FoodMarketsFragment}
- * by using the {@link ViewPager} and {@link MarketsViewPagerAdapter}.
+ * by using the {@link ViewPager} and {@link ViewPagerAdapter}.
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         // create an adapter that knows which fragment should be shown on each page.
-        MarketsViewPagerAdapter adapter = new MarketsViewPagerAdapter(this, getSupportFragmentManager());
+        ViewPagerAdapter adapter = new ViewPagerAdapter(this, getSupportFragmentManager());
 
         // Set the adapter onto the view pager.
         mViewPager.setAdapter(adapter);
